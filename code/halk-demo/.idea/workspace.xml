@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c35d1282-b77d-4483-af60-4938735b19c0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java\mavenRepository" />
+        <option name="mavenHome" value="D:/java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m " />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="1VEJyETfrkBi7NGCQlEJIadKq6a" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/halk-user/src/main/resources/static" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.junhi.service.pojo" />
+      <recent name="com.leyou.httpdemo.pojo" />
+      <recent name="org.junhi.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\halk_study\code\halk-demo\halk-user\src\main\resources\static" />
+      <recent name="D:\projects\halk_study\code\halk-user\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HalkZuulApplication">
+    <configuration name="TranscodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.junhi.eureka.TranscodingTest" />
+      <module name="halk-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junhi.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranscodingTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="halk-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junhi.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.junhi.eureka" />
+      <option name="MAIN_CLASS_NAME" value="org.junhi.eureka.TranscodingTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranscodingTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="halk-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junhi.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.junhi.eureka" />
+      <option name="MAIN_CLASS_NAME" value="org.junhi.eureka.TranscodingTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalkEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="halk-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.junhi.eureka.HalkEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalkEurekaApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="halk-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.junhi.eureka.HalkEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalkEurekaApplication3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="halk-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.junhi.eureka.HalkEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalkServiceConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="halk-service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.junhi.service.HalkServiceConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalkServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="halk-service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junhi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.junhi.service.HalkServiceProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HalkZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="halk-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.junhi.zuul.HalkZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="http-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.httpdemo.HttpDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="halk-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.junhi.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.junhi.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TranscodingTest" />
+      <item itemvalue="JUnit.TranscodingTest.test01" />
+      <item itemvalue="JUnit.TranscodingTest.test02" />
+      <item itemvalue="Spring Boot.HttpDemoApplication" />
+      <item itemvalue="Spring Boot.HalkEurekaApplication" />
+      <item itemvalue="Spring Boot.HalkEurekaApplication2" />
+      <item itemvalue="Spring Boot.HalkEurekaApplication3" />
+      <item itemvalue="Spring Boot.HalkServiceConsumerApplication" />
+      <item itemvalue="Spring Boot.HalkZuulApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.HalkServiceProviderApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.HalkServiceProviderApplication" />
+        <item itemvalue="JUnit.TranscodingTest.test02" />
+        <item itemvalue="Application.TranscodingTest" />
+        <item itemvalue="JUnit.TranscodingTest.test01" />
+        <item itemvalue="Spring Boot.UserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.23497267" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\hacker\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c35d1282-b77d-4483-af60-4938735b19c0" name="Default Changelist" comment="" />
+      <created>1576812573016</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576812573016</updated>
+      <workItem from="1576812576525" duration="2990000" />
+      <workItem from="1576823613821" duration="1410000" />
+      <workItem from="1576825073092" duration="6926000" />
+      <workItem from="1576898805624" duration="11950000" />
+      <workItem from="1576997794798" duration="1235000" />
+      <workItem from="1576999177517" duration="3771000" />
+      <workItem from="1577003035009" duration="2866000" />
+      <workItem from="1577007462678" duration="76000" />
+      <workItem from="1577007552006" duration="7027000" />
+      <workItem from="1577024847785" duration="2291000" />
+      <workItem from="1577062525964" duration="5242000" />
+      <workItem from="1577072953605" duration="6260000" />
+      <workItem from="1577084529089" duration="1111000" />
+      <workItem from="1577085741961" duration="6965000" />
+      <workItem from="1577112584963" duration="1427000" />
+      <workItem from="1577149205739" duration="15817000" />
+      <workItem from="1577237564931" duration="1778000" />
+      <workItem from="1577252078751" duration="10207000" />
+      <workItem from="1577321740710" duration="12609000" />
+      <workItem from="1577407829208" duration="102000" />
+      <workItem from="1577408514382" duration="10930000" />
+      <workItem from="1577451798855" duration="761000" />
+      <workItem from="1577500798940" duration="594000" />
+      <workItem from="1577502730350" duration="31000" />
+      <workItem from="1577530163398" duration="11000" />
+      <workItem from="1577530185563" duration="911000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="54" key="#HalkEurekaApplication2_(1)" timestamp="1577113305114">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="403" y="54" key="#HalkEurekaApplication2_(1)/0.0.1536.834@0.0.1536.834" timestamp="1577113305114" />
+    <state x="403" y="54" key="#HalkEurekaApplication_(1)" timestamp="1577113130968">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="403" y="54" key="#HalkEurekaApplication_(1)/0.0.1536.834@0.0.1536.834" timestamp="1577113130968" />
+    <state x="361" y="76" key="#Inspections" timestamp="1576910127824">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1576910127824" />
+    <state x="361" y="76" key="#Notifications" timestamp="1577090493665">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1577090493665" />
+    <state x="361" y="91" key="#Project_Structure" timestamp="1576812590973">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1576812590973" />
+    <state x="485" y="211" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1577009347392">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="485" y="211" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.834@0.0.1536.834" timestamp="1577009347392" />
+    <state x="223" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577345608578">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1577345608578" />
+    <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1576813248158" />
+    <state x="511" y="253" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1576999019996">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="511" y="253" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.834@0.0.1536.834" timestamp="1576999019996" />
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser" timestamp="1577348626062">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1577348626062" />
+    <state x="618" y="306" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576999241012">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="618" y="306" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1576999241012" />
+    <state x="449" y="152" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577530168691">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="152" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1577530168691" />
+    <state x="570" y="107" key="FileChooserDialogImpl" timestamp="1577530415002">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="570" y="107" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1577530415002" />
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1577440598911">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577440598911" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576825829269" />
+    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1577440598911">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1577440598911" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576825829268" />
+    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1577440598911">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1577440598911" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576825829268" />
+    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1577440598911">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1577440598911" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576825829269" />
+    <state width="1119" height="302" key="GridCell.Tab.1.bottom" timestamp="1577354009751">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1119" height="302" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577354009751" />
+    <state width="1119" height="302" key="GridCell.Tab.1.center" timestamp="1577354009750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1119" height="302" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1577354009750" />
+    <state width="1119" height="302" key="GridCell.Tab.1.left" timestamp="1577354009750">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1119" height="302" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1577354009750" />
+    <state width="1119" height="302" key="GridCell.Tab.1.right" timestamp="1577354009751">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1119" height="302" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1577354009751" />
+    <state width="1143" height="269" key="GridCell.Tab.2.bottom" timestamp="1577181128306">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1143" height="269" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1577181128306" />
+    <state width="1143" height="269" key="GridCell.Tab.2.center" timestamp="1577181128306">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1143" height="269" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1577181128306" />
+    <state width="1143" height="269" key="GridCell.Tab.2.left" timestamp="1577181128306">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1143" height="269" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1577181128306" />
+    <state width="1143" height="269" key="GridCell.Tab.2.right" timestamp="1577181128306">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1143" height="269" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1577181128306" />
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1577070782840">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1577070782840" />
+    <state x="429" y="115" key="NewModule_or_Project.wizard" timestamp="1577242003912">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="429" y="115" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1577242003912" />
+    <state x="146" y="94" width="1194" height="715" key="SettingsEditor" timestamp="1577410160056">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="146" y="94" width="1194" height="715" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1577410160056" />
+    <state x="270" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1576825251008" />
+    <state x="454" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1576999180571">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="454" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1576999180571" />
+    <state x="560" y="107" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577153032482">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="560" y="107" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.834@0.0.1536.834" timestamp="1577153032482" />
+    <state x="540" y="120" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576913846622">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="540" y="120" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1576913846622" />
+    <state x="447" y="150" width="1060" height="534" key="find.popup" timestamp="1577172414217">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="150" width="1060" height="534" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1577172414217" />
+    <state x="246" y="65" key="new project wizard" timestamp="1577530494520">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="246" y="65" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1577530494520" />
+    <state x="178" y="84" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1576812736737" />
+    <state x="425" y="190" key="run.anything.popup" timestamp="1577417282396">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="190" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1577417282396" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1576825796294" />
+    <state x="428" y="77" key="scopes" timestamp="1577170873691">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="428" y="77" key="scopes/0.0.1536.834@0.0.1536.834" timestamp="1577170873691" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../halk-springboot/src/main/java/org/junhi/controller/HelloController.java</url>
+          <line>22</line>
+          <properties class="org.junhi.controller.HelloController">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+
+server:
+  port: 8081
+logging:
+  level:
+    org:
+      springframework: info
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.1.114:3306/leyou2
+    username: root
+    password: uetec123
+  application:
+    name: service-provider  # 将来作为微服务的名称
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.114:10086/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5  # 心跳时间--租期续约间隔时间
+    lease-expiration-duration-in-seconds: 15  # 过期时间--租期期满持续时间
+
+# slq打印日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

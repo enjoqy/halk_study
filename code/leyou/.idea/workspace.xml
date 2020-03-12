@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7d1d8e7f-f996-4d47-8bff-be52d2205bc6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - leyou2@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - leyou2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - leyou2@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="leyou2: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\java\mavenRepository" />
+        <option name="mavenHome" value="D:/java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Vbn7RXGqZbcQVoVDZSvdM9jFoA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leyou-common/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TypeMapperSetting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\halk_study\code\leyou\leyou-common\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LeyouRegistryApplication">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="leyou-gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leyou-gateway" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="leyou-item-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeyouRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="leyou-registry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leyou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.LeyouRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LeyouRegistryApplication" />
+        <item itemvalue="Spring Boot.LeyouGatewayApplication" />
+        <item itemvalue="JUnit.test.test01" />
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.21516393" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7d1d8e7f-f996-4d47-8bff-be52d2205bc6" name="Default Changelist" comment="" />
+      <created>1577530495005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577530495005</updated>
+      <workItem from="1577530498638" duration="6604000" />
+      <workItem from="1577545082291" duration="620000" />
+      <workItem from="1577585733891" duration="587000" />
+      <workItem from="1578365812936" duration="6306000" />
+      <workItem from="1580999370324" duration="812000" />
+      <workItem from="1581041313316" duration="4197000" />
+      <workItem from="1581215605045" duration="10051000" />
+      <workItem from="1581310452115" duration="1166000" />
+      <workItem from="1581311634728" duration="2550000" />
+      <workItem from="1581474972204" duration="1797000" />
+      <workItem from="1581560721757" duration="2212000" />
+      <workItem from="1582343506995" duration="598000" />
+      <workItem from="1582346919165" duration="904000" />
+      <workItem from="1582951831653" duration="4725000" />
+      <workItem from="1583046380465" duration="3925000" />
+      <workItem from="1583415462989" duration="3297000" />
+      <workItem from="1583843514091" duration="2176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="76" key="#Project_Structure" timestamp="1578365820333">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1578365820333" />
+    <state x="361" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581313988320">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581313988320" />
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser" timestamp="1583844080892">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="133" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1583844080892" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1581313794545">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581313794545" />
+    <state width="1148" height="271" key="GridCell.Tab.0.bottom" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="271" key="GridCell.Tab.0.center" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="271" key="GridCell.Tab.0.left" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="271" key="GridCell.Tab.0.right" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="271" key="GridCell.Tab.1.bottom" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="271" key="GridCell.Tab.1.center" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="271" key="GridCell.Tab.1.left" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="271" key="GridCell.Tab.1.right" timestamp="1583853948680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="271" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1583853948680" />
+    <state width="1148" height="254" key="GridCell.Tab.2.bottom" timestamp="1581264481829">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="254" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581264481829" />
+    <state width="1148" height="254" key="GridCell.Tab.2.center" timestamp="1581264481829">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="254" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1581264481829" />
+    <state width="1148" height="254" key="GridCell.Tab.2.left" timestamp="1581264481829">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="254" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1581264481829" />
+    <state width="1148" height="254" key="GridCell.Tab.2.right" timestamp="1581264481829">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1148" height="254" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1581264481829" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1581313825488">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1581313825488" />
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog" timestamp="1581167197293">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="299" y="73" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1581167197293" />
+    <state x="270" y="60" width="1191" height="714" key="SettingsEditor" timestamp="1581314239880">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="60" width="1191" height="714" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581314239880" />
+    <state x="178" y="112" key="new project wizard" timestamp="1577536521027">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="178" y="112" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1577536521027" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1582957500419">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1582957500419" />
+  </component>
+</project>

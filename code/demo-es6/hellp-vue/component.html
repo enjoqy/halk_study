@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <counter :num1="num" title=0 @incr12="incr11()"></counter>
+    <hello1></hello1>
+</div>
+
+</body>
+<script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    /*全局组件*/
+    Vue.component("counter", {
+        template: "<button  @click='subIncr'>点我呀，点我num+1。{{num1}}----{{title}}</button>",
+        data(){
+            return {
+                num: 0
+            }
+        },
+        props: {
+            num1: {
+                type: Number,
+                required: true,
+                default: 0
+            },
+            title: {
+                type: Number
+            }
+        },
+        methods: {
+            subIncr(){
+                this.$emit("incr12");
+            }
+        }
+    });
+
+    /*局部组件*/
+    const hello = {
+        template: "<div>打个招呼。我是{{name}}</div>",
+        data(){
+            return {
+                name: "张学友"
+            }
+        }
+    };
+
+    const app = new Vue({
+        el: "#app",
+        components: {
+            hello1: hello
+        },
+        data: {
+            num: 100
+        },
+        methods: {
+            incr11(){
+                this.num++;
+            }
+        }
+    });
+</script>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/halk-eureka/halk-eureka.iml" filepath="$PROJECT_DIR$/halk-eureka/halk-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halk-service-consumer/halk-service-consumer.iml" filepath="$PROJECT_DIR$/halk-service-consumer/halk-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halk-service-provider/halk-service-provider.iml" filepath="$PROJECT_DIR$/halk-service-provider/halk-service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halk-springboot/halk-springboot.iml" filepath="$PROJECT_DIR$/halk-springboot/halk-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halk-user/halk-user.iml" filepath="$PROJECT_DIR$/halk-user/halk-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/halk-zuul/halk-zuul.iml" filepath="$PROJECT_DIR$/halk-zuul/halk-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/http-demo/http-demo.iml" filepath="$PROJECT_DIR$/http-demo/http-demo.iml" />
+    </modules>
+  </component>
+</project>

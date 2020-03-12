@@ -1,0 +1,20 @@
+# 商品的微服务
+server:
+  port: 8081
+spring:
+  application:
+    name: item-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/leyou2
+    username: root
+    password: uetec123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5  # 租约续约时间（心跳时间）
+    lease-expiration-duration-in-seconds: 15 # 租约终结持续时间（过期时间）
+mybatis:
+  type-aliases-package: com.leyou.item.pojo  # mybatis实体类的别名扫描

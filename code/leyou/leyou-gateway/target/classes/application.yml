@@ -1,0 +1,15 @@
+# 网关微服务：服务路由、请求的过滤
+server:
+  port: 10010
+spring:
+  application:
+    name: leyou-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 5  # 拉取注册服务的间隔时间
+zuul:
+  prefix: /api
+  routes:
+    item-service: /item/**  # 路由到商品的微服务

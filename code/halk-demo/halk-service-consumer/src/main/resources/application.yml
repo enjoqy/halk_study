@@ -1,0 +1,24 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: service-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.1.114:10086/eureka
+    fetch-registry: true  # 是否拉取服务列表
+    registry-fetch-interval-seconds: 5  # 拉取服务的间隔时间
+    register-with-eureka: true  # 服务启动时注册到注册中心，默认为true
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 心跳时间
+    lease-expiration-duration-in-seconds: 15  # 过期时间
+service-provider:  # 服务提供方的id
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  # 更改负载均衡策略为随机
+
+feign:
+  hystrix:
+    enabled: true  # feign集成了熔断，默认关闭，可以手动开启
+
