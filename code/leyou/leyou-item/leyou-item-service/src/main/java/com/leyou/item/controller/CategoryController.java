@@ -33,7 +33,7 @@ public class CategoryController {
      * @Param [pid]
      **/
     @GetMapping("list")
-    public ResponseEntity<List<Category>> queryCategoriesByPid(@RequestParam(value = "Pid", defaultValue = "0") Long pid) {
+    public ResponseEntity<List<Category>> queryCategoriesByPid(@RequestParam(value = "pid", defaultValue = "0") Long pid) {
         if (pid == null || pid < 0) {
             //400：参数错误
             //return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();

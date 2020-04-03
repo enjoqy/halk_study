@@ -8,6 +8,7 @@ import com.leyou.item.pojo.Brand;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
@@ -23,11 +24,11 @@ public class BrandService {
     private BrandMapper brandMapper;
 
     /**
+     * @return com.leyou.common.pojo.PageResult<com.leyou.item.pojo.Brand>
      * @Author halk
      * @Description 根据查询条件分页并排序查询品牌信息
      * @Date 2020/2/29 15:07
      * @Param [key, page, rows, sortBy, desc]
-     * @return com.leyou.common.pojo.PageResult<com.leyou.item.pojo.Brand>
      **/
     public PageResult<Brand> queryBrandByPage(String key, Integer page, Integer rows, String sortBy, Boolean desc) {
 
@@ -36,7 +37,7 @@ public class BrandService {
         Example.Criteria criteria = example.createCriteria();
 
         //根据name模糊查询，或者根据首字母查询
-        if (StringUtils.isNotBlank(key)){
+        if (StringUtils.isNotBlank(key)) {
             criteria.andLike("name", "%" + key + "%").orEqualTo("letter", key);
         }
 
@@ -44,7 +45,7 @@ public class BrandService {
         PageHelper.startPage(page, rows);
 
         //添加排序条件
-        if (StringUtils.isNotBlank(sortBy)){
+        if (StringUtils.isNotBlank(sortBy)) {
             example.setOrderByClause(sortBy + " " + (desc ? "desc" : "asc"));
         }
 
@@ -55,5 +56,24 @@ public class BrandService {
 
         //包装成分页结果集返回
         return new PageResult<>(pageInfo.getTotal(), pageInfo.getList());
+    }
+
+    /**
+     * @return void
+     * @Author halk
+     * @Description 新增品牌
+     * @Date 2020/3/12 14:13
+     * @Param [brand, cids]
+     **/
+    @Transactional
+    public void saveBrand(Brand brand, List<Long> cids) {
+
+        //先新增brand
+        this.brandMapper.insertSelective(brand);
+
+        //在新增中间表
+        cids.forEach((cid) -> {
+            this.brandMapper.insertCategoryAndBrand(cid, brand.getId());
+        });
     }
 }
