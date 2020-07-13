@@ -10,6 +10,34 @@ eureka:
       defaultZone: http://localhost:10086/eureka
     registry-fetch-interval-seconds: 5  # 拉取注册服务的间隔时间
 zuul:
+  host:
+    connect-timeout-millis: 15000  #HTTP连接超时大于Hystrix的超时时间
+    socket-timeout-millis: 60000  #socket超时
   prefix: /api
   routes:
     item-service: /item/**  # 路由到商品的微服务
+    search-service: /search/**  # 路由到搜索商品的微服务
+    user-service: /user/**  # 路由到用户的微服务
+    auth-service: /auth/**  # 路由到鉴权的微服务
+    cart-service: /cart/**  # 路由到购物车的微服务
+    order-service: /order/**  # 路由到购物车的微服务
+  add-host-header: true  # 转发的时候携带地址信息
+  sensitive-headers:   # 覆盖默认头信息
+ribbon:  #设置ribbon的超时时间小于zuul的超时时间
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+#  ignored-patterns:
+
+leyou:
+  jwt:
+    pubKeyPath: D:\\projects\\halk_study\\code\\rsa\\rsa.pub # 公钥地址
+    cookieName: LY_TOKEN
+  filter:
+    allowPaths:  # 网关拦截白名单，以“-”开头是集合可以配置多个
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item
+

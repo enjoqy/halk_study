@@ -54,8 +54,9 @@ public class BrandService {
         //包装成pageInfo
         PageInfo<Brand> pageInfo = new PageInfo<>(brands);
 
+        List<Brand> list = pageInfo.getList();
         //包装成分页结果集返回
-        return new PageResult<>(pageInfo.getTotal(), pageInfo.getList());
+        return new PageResult<>(pageInfo.getTotal(), list);
     }
 
     /**
@@ -65,15 +66,81 @@ public class BrandService {
      * @Date 2020/3/12 14:13
      * @Param [brand, cids]
      **/
-    @Transactional
+    @Transactional(rollbackFor = Exception.class)
     public void saveBrand(Brand brand, List<Long> cids) {
 
         //先新增brand
         this.brandMapper.insertSelective(brand);
 
         //在新增中间表
+        saveCategoryAndBrand(brand, cids);
+
+    }
+
+    /**
+     * @Author halk
+     * @Description 在新增中间表
+     * @Date 2020/5/3 0003 10:40
+     * @Param [brand, cids]
+     * @return void
+     **/
+    private void saveCategoryAndBrand(Brand brand, List<Long> cids) {
         cids.forEach((cid) -> {
             this.brandMapper.insertCategoryAndBrand(cid, brand.getId());
         });
+    }
+
+    /**
+     * @Author halk
+     * @Description 根据分类cid查询品牌集合
+     * @Date 2020/4/22 17:33
+     * @Param [cid]
+     * @return java.util.List<com.leyou.item.pojo.Brand>
+     **/
+    public List<Brand> queryBrandsById(Long cid) {
+        return this.brandMapper.selectBrandsByCid(cid);
+    }
+
+    /**
+     * @Author halk
+     * @Description 更新品牌
+     * @Date 2020/5/3 0003 10:29
+     * @Param [brand, cids]
+     * @return void
+     **/
+    @Transactional(rollbackFor = Exception.class)
+    public void updateBrand(Brand brand, List<Long> cids) {
+        //先新增品牌表，在根据id删除中间表，最后新增中间表
+        this.brandMapper.updateByPrimaryKey(brand);
+
+        this.brandMapper.deleteBrandAndCategoryByBid(brand.getId());
+
+        saveCategoryAndBrand(brand, cids);
+    }
+
+    /**
+     * @Author halk
+     * @Description 根据bid删除品牌和品牌与分类对应的关系
+     * @Date 2020/5/3 0003 19:14
+     * @Param [bid]
+     * @return void
+     **/
+    @Transactional(rollbackFor = Exception.class)
+    public void deleteBrandByBid(Long bid) {
+        //先删品牌，在处理中间表
+        this.brandMapper.deleteByPrimaryKey(bid);
+
+        this.brandMapper.deleteBrandAndCategoryByBid(bid);
+    }
+
+    /**
+     * @Author halk
+     * @Description 根据id查询品牌
+     * @Date 2020/5/13 0013 10:53
+     * @Param [id]
+     * @return com.leyou.item.pojo.Brand
+     **/
+    public Brand queryBrandById(Long id) {
+        return this.brandMapper.selectByPrimaryKey(id);
     }
 }

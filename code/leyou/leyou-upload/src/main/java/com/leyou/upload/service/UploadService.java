@@ -1,9 +1,12 @@
 package com.leyou.upload.service;
 
-import ch.qos.logback.classic.pattern.LoggerConverter;
+import com.github.tobato.fastdfs.domain.StorePath;
+import com.github.tobato.fastdfs.service.FastFileStorageClient;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -22,11 +25,21 @@ import java.util.List;
 public class UploadService {
 
     /**
+     * 图片上传域名路径
+     */
+    @Value("${halk.imageUrl}")
+    private String imageUrl;
+
+    /**
      * 只接受请求头中有效的文件类型
      */
-    private static final List<String> CONTENT_TYPE = Arrays.asList("application/x-img", "image/jpeg", "application/x-jpg", "image/png", "application/x-png");
+    private static final List<String> CONTENT_TYPE = Arrays.asList("application/x-img", "image/jpeg", "application/x-jpg",
+            "image/png", "application/x-png");
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UploadService.class);
+
+    @Autowired
+    private FastFileStorageClient fastFileStorageClient;
 
     public String uploadImage(MultipartFile file) {
 
@@ -52,11 +65,17 @@ public class UploadService {
                 return null;
             }
 
-            //保存到文件服务器
+            //保存到本地
             file.transferTo(new File("D:\\projects\\halk_study\\image\\" + originalFilename));
 
+            //保存到FastFDFS
+            String ext = StringUtils.substringAfterLast(originalFilename, ".");
+            StorePath storePath = fastFileStorageClient.uploadFile(file.getInputStream(), file.getSize(), ext, null);
+
             //返回图片url路径
-            return "http://image.leyou.com/" + originalFilename;
+//            return "http://image.leyou.com/" + originalFilename;
+
+            return imageUrl + "/" + storePath.getFullPath();
         } catch (IOException e) {
             LOGGER.info("文件服务器内部错误：{}" + originalFilename);
             e.printStackTrace();

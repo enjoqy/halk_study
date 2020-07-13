@@ -139,6 +139,21 @@
             this.oldBrand.categories = data;
           })
       },
+      deleteBrand(oldBrand){
+        this.$message.confirm("确认要删除此品牌吗？")
+          .then(() => {
+            this.$http.delete("/item/brand/bid/"+ oldBrand.id)
+              .then(() => {
+                this.$message.success("删除成功");
+                // 重新加载数据
+                this.getDataFromServer();
+              })
+            .catch(function (res) {
+              this.$message.error("删除失败！" + res);
+            });
+
+          })
+      },
       closeWindow() {
         // 重新加载数据
         this.getDataFromServer();

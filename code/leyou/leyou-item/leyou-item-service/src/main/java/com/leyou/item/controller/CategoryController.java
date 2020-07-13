@@ -8,10 +8,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.crypto.interfaces.PBEKey;
 import java.util.List;
 
 /**
@@ -50,12 +51,41 @@ public class CategoryController {
 
     }
 
+    /**
+     * @Author halk
+     * @Description 根据品牌id查询分类集合
+     * @Date 2020/5/3 0003 10:21
+     * @Param [bid]
+     * @return org.springframework.http.ResponseEntity<com.leyou.item.pojo.Brand>
+     **/
+    @GetMapping("/bid/{bid}")
+    public ResponseEntity<List<Category>> queryBrandById(@PathVariable("bid") Long bid){
 
-    @GetMapping("test")
-    @ResponseBody
-    public String test() {
-        return "haha";
+        List<Category> categories = this.categoryService.queryCategoriesByBid(bid);
+
+        if (CollectionUtils.isEmpty(categories)){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.ok(categories);
     }
+
+    /**
+     * @Author halk
+     * @Description 根据id集合查询name
+     * @Date 2020/5/13 0013 10:50
+     * @Param [ids]
+     * @return org.springframework.http.ResponseEntity<java.util.List<java.lang.String>>
+     **/
+    @GetMapping
+    public ResponseEntity<List<String>> queryNamesByIds(@RequestParam("ids")List<Long> ids){
+        List<String> names = this.categoryService.queryNamesByIds(ids);
+        if (CollectionUtils.isEmpty(names)){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.ok(names);
+    }
+
+
 
 
 }

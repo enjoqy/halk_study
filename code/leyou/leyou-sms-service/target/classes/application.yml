@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.25.152
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+leyou:
+  sms:
+    accessKeyId: LTAIRHnKpcs9USnd # 你自己的accessKeyId
+    accessKeySecret: Ezc3OO7LiSbt2e8RgLvkldaLMLjnI9 # 你自己的AccessKeySecret
+    signName: coreach网站通知 # 签名名称
+    verifyCodeTemplate: SMS_171858094 # 模板名称

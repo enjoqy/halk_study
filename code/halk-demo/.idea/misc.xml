@@ -14,6 +14,8 @@
         <option value="$PROJECT_DIR$/halk-service-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/halk-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/halk-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/halk-elasticearch/pom.xml" />
+        <option value="$PROJECT_DIR$/halk-elasticsearch/pom.xml" />
       </list>
     </option>
   </component>

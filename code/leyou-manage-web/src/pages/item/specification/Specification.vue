@@ -17,7 +17,7 @@
           <v-card class="elevation-0" v-show="currentNode.id">
               <v-card-title v-if="!currentNode.path">
                 请先选择一个分类
-              </v-card-title>         
+              </v-card-title>
             <v-breadcrumbs dense v-else>
                 <v-icon slot="divider">chevron_right</v-icon>
                 <v-breadcrumbs-item
