@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.halk.seckill.mapper.SeckillOrderMapper">
+    <resultMap id="BaseResultMap" type="org.halk.seckill.entity.Seckillorder">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="productId" jdbcType="INTEGER" property="productid"/>
+        <result column="amount" jdbcType="DECIMAL" property="amount"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, productId, amount
+  </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from seckillorder
+        where id = #{id,jdbcType=INTEGER}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+        delete from seckillorder
+        where id = #{id,jdbcType=INTEGER}
+  </delete>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="org.halk.seckill.entity.Seckillorder"
+            useGeneratedKeys="true">
+        insert into seckillorder (productId, amount)
+        values (#{productid,jdbcType=INTEGER}, #{amount,jdbcType=DECIMAL})
+  </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="org.halk.seckill.entity.Seckillorder"
+            useGeneratedKeys="true">
+        insert into seckillorder
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="productid != null">
+                productId,
+            </if>
+            <if test="amount != null">
+                amount,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="productid != null">
+                #{productid,jdbcType=INTEGER},
+            </if>
+            <if test="amount != null">
+                #{amount,jdbcType=DECIMAL},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="org.halk.seckill.entity.Seckillorder">
+        update seckillorder
+        <set>
+            <if test="productid != null">
+                productId = #{productid,jdbcType=INTEGER},
+            </if>
+            <if test="amount != null">
+                amount = #{amount,jdbcType=DECIMAL},
+            </if>
+        </set>
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="org.halk.seckill.entity.Seckillorder">
+        update seckillorder
+        set productId = #{productid,jdbcType=INTEGER},
+          amount = #{amount,jdbcType=DECIMAL}
+        where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

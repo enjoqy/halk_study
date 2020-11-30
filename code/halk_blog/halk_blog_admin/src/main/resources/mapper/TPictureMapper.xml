@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.halk.blog.admin.mapper.TPictureMapper">
+  <resultMap id="BaseResultMap" type="org.halk.blog.admin.entity.TPicture">
+    <id column="uid" jdbcType="VARCHAR" property="uid" />
+    <result column="file_uid" jdbcType="VARCHAR" property="fileUid" />
+    <result column="pic_name" jdbcType="VARCHAR" property="picName" />
+    <result column="picture_sort_uid" jdbcType="VARCHAR" property="pictureSortUid" />
+    <result column="status" jdbcType="BOOLEAN" property="status" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    `uid`, file_uid, pic_name, picture_sort_uid, `status`, create_time, update_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from t_picture
+    where `uid` = #{uid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from t_picture
+    where `uid` = #{uid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" keyColumn="uid" keyProperty="uid" parameterType="org.halk.blog.admin.entity.TPicture" useGeneratedKeys="true">
+    insert into t_picture (file_uid, pic_name, picture_sort_uid, 
+      `status`, create_time, update_time
+      )
+    values (#{fileUid,jdbcType=VARCHAR}, #{picName,jdbcType=VARCHAR}, #{pictureSortUid,jdbcType=VARCHAR}, 
+      #{status,jdbcType=BOOLEAN}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="uid" keyProperty="uid" parameterType="org.halk.blog.admin.entity.TPicture" useGeneratedKeys="true">
+    insert into t_picture
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="fileUid != null">
+        file_uid,
+      </if>
+      <if test="picName != null">
+        pic_name,
+      </if>
+      <if test="pictureSortUid != null">
+        picture_sort_uid,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="createTime != null">
+        create_time,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="fileUid != null">
+        #{fileUid,jdbcType=VARCHAR},
+      </if>
+      <if test="picName != null">
+        #{picName,jdbcType=VARCHAR},
+      </if>
+      <if test="pictureSortUid != null">
+        #{pictureSortUid,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=BOOLEAN},
+      </if>
+      <if test="createTime != null">
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="org.halk.blog.admin.entity.TPicture">
+    update t_picture
+    <set>
+      <if test="fileUid != null">
+        file_uid = #{fileUid,jdbcType=VARCHAR},
+      </if>
+      <if test="picName != null">
+        pic_name = #{picName,jdbcType=VARCHAR},
+      </if>
+      <if test="pictureSortUid != null">
+        picture_sort_uid = #{pictureSortUid,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=BOOLEAN},
+      </if>
+      <if test="createTime != null">
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where `uid` = #{uid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="org.halk.blog.admin.entity.TPicture">
+    update t_picture
+    set file_uid = #{fileUid,jdbcType=VARCHAR},
+      pic_name = #{picName,jdbcType=VARCHAR},
+      picture_sort_uid = #{pictureSortUid,jdbcType=VARCHAR},
+      `status` = #{status,jdbcType=BOOLEAN},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where `uid` = #{uid,jdbcType=VARCHAR}
+  </update>
+</mapper>
