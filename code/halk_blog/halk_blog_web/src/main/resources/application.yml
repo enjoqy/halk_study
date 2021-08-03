@@ -14,5 +14,5 @@ spring:
 #mybatis
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
-  #\u5B9E\u4F53\u626B\u63CF\uFF0C\u591A\u4E2Apackage\u7528\u9017\u53F7\u6216\u8005\u5206\u53F7\u5206\u9694
+  #实体扫描，多个package用逗号或者分号分隔
   typeAliasesPackage: org.halk.blog.web.entity

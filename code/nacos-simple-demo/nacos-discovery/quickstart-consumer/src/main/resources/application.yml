@@ -1,0 +1,14 @@
+server:
+  port: ${port:56010}
+
+spring:
+  application:
+    name: quickstart-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848,127.0.0.1:8847,127.0.0.1:8849
+logging:
+  level:
+    root: info
+    org.springframework: info

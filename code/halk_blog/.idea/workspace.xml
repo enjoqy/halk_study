@@ -53,543 +53,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b3b3005-1f03-49c6-9480-778305cc42c2" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../RabbitMqDemo/src/main/java/org/halk/rabbitmqdemp/controller/RabbitMqDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMqDemo/src/main/java/org/halk/rabbitmqdemp/entity/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMqDemo/src/main/java/org/halk/rabbitmqdemp/listener/Listener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMqDemo/src/main/java/org/halk/rabbitmqdemp/utils/ConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMqDemo/src/main/resources/templates/WeChat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/SpringBoot-kill.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/api/src/main/java/org/halk/kill/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/api/src/main/java/org/halk/kill/enums/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/api/src/main/java/org/halk/kill/response/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/entity/ItemKill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/entity/ItemKillSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/entity/RandomCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/mapper/ItemKillMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/mapper/ItemKillSuccessMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/mapper/ItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/mapper/RandomCodeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/java/org/halk/kill/model/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/resources/mappers/ItemKillMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/resources/mappers/ItemKillSuccessMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/resources/mappers/ItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/resources/mappers/RandomCodeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/model/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/java/org/halk/kill/server/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/java/org/halk/kill/server/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/resources/application-local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/resources/spring/spring-jdbc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/resources/spring/spring-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBoot-kill/server/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../distributed_lock_demo/src/main/java/org/halk/distributedlock/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../halk-demo/canal_demo/src/main/java/org/halk/canal_demo/util/CanalExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../halk-demo/canal_demo/src/main/java/org/halk/canal_demo/util/JedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_38.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/HalkBlogAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/base/global/BaseSysConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/base/global/SysConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/base/mapper/SuperMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/base/service/SuperService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/base/serviceImpl/SuperServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/JwtProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/filter/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/filter/TokenAuthorFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/entity/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/entity/TPicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/entity/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/mapper/BlogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/mapper/TPictureMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/mapper/TagMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/impl/AuthServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/utils/AbstractJwtConstans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/utils/ObjectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/utils/ResultUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/utils/RsaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/resources/mapper/TPictureMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/resources/mapper/TagMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/test/java/org/halk/blog/admin/HalkBlogAdminApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/test/java/org/halk/blog/admin/demo/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_admin/src/test/java/org/halk/blog/admin/demo/JwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/HalkBlogWebApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/entity/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/mapper/BlogMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/service/BlogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/halk_blog_web/src/test/java/org/halk/blog/web/HalkBlogWebApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsa/rsa.pri" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsa/rsa.pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_aop_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_beans_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_context_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_core_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_expression_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_test_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_tx_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_web_5_0_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/itcast-rabbitmq.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leyou/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/SeckillDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/controller/SeckillController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/entity/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/entity/Seckillorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/mapper/SeckillOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/zookeeper/ZooKeeperWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/zookeeper/demo/ZooKeeperProSync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/java/org/halk/seckill/zookeeper/demo/ZooKeeperProSync2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/main/resources/mappers/SeckillOrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/test/java/org/halk/seckill/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/test/java/org/halk/seckill/SeckillDemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/test/java/org/halk/seckill/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../seckillDemo/src/test/java/org/halk/seckill/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletDemo/servletDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/src/main/java/org/halk/spring_security_demo/SpringSecurityDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/src/main/java/org/halk/spring_security_demo/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/src/main/java/org/halk/spring_security_demo/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/src/main/java/org/halk/spring_security_demo/service/MyUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring_security_demo/src/test/java/org/halk/spring_security_demo/SpringSecurityDemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hello-es6/hello-es6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hello-es6/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/hellp-vue.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/dist/vue-router.common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/dist/vue-router.esm.browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/dist/vue-router.esm.browser.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/dist/vue-router.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/dist/vue-router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/dist/vue-router.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/src/create-matcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/src/create-route-map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/src/install.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/types/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/types/router.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue-router/types/vue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.common.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.common.prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.esm.browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.esm.browser.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.runtime.common.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.runtime.common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.runtime.common.prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.runtime.esm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/dist/vue.runtime.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/codeframe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/codegen/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/codegen/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/create-compiler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/directives/bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/directives/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/directives/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/directives/on.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/error-detector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/optimizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/parser/entity-decoder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/parser/filter-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/parser/html-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/parser/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/parser/text-parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/compiler/to-function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/components/keep-alive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/global-api/assets.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/global-api/extend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/global-api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/global-api/mixin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/global-api/use.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/inject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/lifecycle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/proxy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/bind-dynamic-keys.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/bind-object-listeners.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/bind-object-props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/check-keycodes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/render-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/render-slot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/render-static.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/resolve-filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/resolve-scoped-slots.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render-helpers/resolve-slots.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/render.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/instance/state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/observer/array.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/observer/dep.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/observer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/observer/scheduler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/observer/traverse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/observer/watcher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/lang.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/next-tick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/perf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/util/props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/create-component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/create-element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/create-functional-component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/extract-props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/get-first-component-child.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/is-async-placeholder.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/merge-hook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/normalize-children.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/normalize-scoped-slots.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/resolve-async-component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/helpers/update-listeners.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/modules/directives.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/modules/ref.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/patch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/core/vdom/vnode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/directives/html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/directives/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/directives/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/directives/text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/modules/class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/modules/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/modules/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/compiler/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/entry-compiler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/entry-runtime-with-compiler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/entry-runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/entry-server-basic-renderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/entry-server-renderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/class-util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/components/transition-group.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/components/transition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/directives/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/directives/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/directives/show.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/modules/attrs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/modules/class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/modules/dom-props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/modules/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/modules/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/modules/transition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/node-ops.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/patch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/runtime/transition-util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/compiler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/directives/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/directives/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/directives/show.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/modules/attrs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/modules/class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/modules/dom-props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/modules/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/server/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/util/attrs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/util/class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/util/compat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/util/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/util/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/web/util/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/directives/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/directives/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/append.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component-root.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/recycle-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-for.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-if.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-on.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-once.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/compiler/modules/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/entry-compiler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/entry-framework.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/entry-runtime-factory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/components/transition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/directives/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/modules/class.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/modules/events.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/modules/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/modules/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/node-ops.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/patch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/recycle-list/render-component-template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/recycle-list/virtual-component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/runtime/text-node.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/util/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/util/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/platforms/weex/util/parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/bundle-renderer/create-bundle-renderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/bundle-renderer/create-bundle-runner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/bundle-renderer/source-map-support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/create-basic-renderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/create-renderer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/optimizing-compiler/codegen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/optimizing-compiler/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/optimizing-compiler/modules.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/optimizing-compiler/optimizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/optimizing-compiler/runtime-helpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/render-context.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/render-stream.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/render.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/template-renderer/create-async-file-mapper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/template-renderer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/template-renderer/parse-template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/template-renderer/template-stream.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/webpack-plugin/client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/webpack-plugin/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/webpack-plugin/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/server/write.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/sfc/parser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/shared/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/src/shared/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/types/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/types/options.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/types/plugin.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/types/umd.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/types/vnode.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/node_modules/vue/types/vue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/src/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo-es6/hellp-vue/src/js/register.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_ioc/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_ioc/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_ioc/MyTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_ioc/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_ioc/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_aop/src/test/java/org/halk/spring_ioc/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo1/src/main/java/org/halk/ThreadDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo1/src/main/java/org/halk/ThreadDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo1/src/main/java/org/halk/ThreadDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo1/src/main/java/org/halk/ThreadDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo1/src/main/java/org/halk/ThreadDemo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/daemonthread/DaemonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/executors/NewCachedThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/executors/NewFixedThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/executors/NewScheduledThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/executors/NewSingleThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/executors/ThreadTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/executors/ThreadTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/jointhread/JoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/jointhread/JoinThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/jointhread/JoinThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mylock/IpuThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mylock/OutThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mylock/Res.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mylock/ThreadDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mysynchronized/IpuThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mysynchronized/OutThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mysynchronized/Res.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/mysynchronized/ThreadDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/stopthread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/stopthread/ThreadStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/thread_test/c_001/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/thread_test/c_002/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/thread_test/c_002/Reentrant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/thread_test/c_002/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/thread_test/c_003/T.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/thread_test/c_004/AtomicVsSyncVsLongAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/thread_test/reentrant_lock/ReentrantLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/threadlocal/Res.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/threadlocal/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/threadlocal/ThreadLocalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/Disorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/M.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/NormalReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/SoftReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/VolatileNoAtomic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/VolatileTest_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/communication/volatilethread/VolatileThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/demo/ThreadDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/demo/ThreadDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/demo/ThreadDemo10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thread_demo/thread_demo2/src/main/java/org/halk/demo/ThreadDemo11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/filter/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/filter/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/filter/TokenAuthorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/filter/TokenAuthorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/HalkBlogWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/HalkBlogWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_web/src/main/java/org/halk/blog/web/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/halk_blog_web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/halk_blog_web/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/leyou-auth/leyou-auth-common/src/test/java/com/leyou/common/test/JwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/leyou-auth/leyou-auth-common/src/test/java/com/leyou/common/test/JwtTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou/leyou-auth/leyou-auth-common/target/test-classes/com/leyou/common/test/JwtTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/leyou-auth/leyou-auth-common/target/test-classes/com/leyou/common/test/JwtTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/SpringAopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/SpringApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/controller/SysUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/dao/SysUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/service/SysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/service/impl/SysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/java/org/halk/spring_aop/springaop/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/main/resources/mapper/SysUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_aop/src/main/resources/mapper/SysUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_aop/src/test/java/org/halk/spring_aop/SpringAopApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_aop/src/test/java/org/halk/spring_ioc/SpringAopApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-study" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-study" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../tools/postwoman" beforeDir="false" afterPath="$PROJECT_DIR$/../../tools/postwoman" afterDir="false" />
     </list>
@@ -640,6 +181,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -652,7 +194,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -672,7 +214,9 @@
   <component name="RunAnythingCache">
     <myKeys>
       <visibility group="Gradle tasks" flag="true" />
+      <visibility group="Grunt" flag="true" />
       <visibility group="Grunt tasks" flag="true" />
+      <visibility group="Gulp" flag="true" />
       <visibility group="Gulp tasks" flag="true" />
       <visibility group="Maven goals" flag="true" />
       <visibility group="Node.js" flag="true" />
@@ -692,6 +236,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.HalkBlogAdminApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="JsonUtils.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="halk_blog_admin" />
       <extension name="coverage">
@@ -703,22 +261,6 @@
       <option name="PACKAGE_NAME" value="org.halk.blog.admin.utils" />
       <option name="MAIN_CLASS_NAME" value="org.halk.blog.admin.utils.JsonUtils" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonUtils.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="halk_blog_admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.halk.blog.admin.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.halk.blog.admin.utils" />
-      <option name="MAIN_CLASS_NAME" value="org.halk.blog.admin.utils.JsonUtils" />
-      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -788,21 +330,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.JsonUtils.test01" />
       <item itemvalue="JUnit.JsonUtils.test" />
       <item itemvalue="JUnit.JwtTest.testRsa" />
       <item itemvalue="JUnit.JwtTest.testGenerateToken" />
       <item itemvalue="JUnit.JwtTest.testParseToken" />
       <item itemvalue="Spring Boot.HalkBlogAdminApplication" />
       <item itemvalue="Spring Boot.HalkBlogWebApplication" />
+      <item itemvalue="HTTP Request.generated-requests#1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests#1" />
         <item itemvalue="JUnit.JwtTest.testParseToken" />
         <item itemvalue="JUnit.JwtTest.testGenerateToken" />
         <item itemvalue="JUnit.JwtTest.testRsa" />
         <item itemvalue="JUnit.JsonUtils.test" />
-        <item itemvalue="JUnit.JsonUtils.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -826,6 +368,7 @@
       <workItem from="1602143742713" duration="1292000" />
       <workItem from="1602210126242" duration="958000" />
       <workItem from="1603854280880" duration="2404000" />
+      <workItem from="1610071647716" duration="11152000" />
     </task>
     <servers />
   </component>
@@ -847,107 +390,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601860988505">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="76" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1601860988505" />
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1601890249683">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1601890249683" />
-    <state x="499" y="193" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1601774217596">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="499" y="193" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1601774217596" />
-    <state width="434" height="466" key="DebuggerActiveHint" timestamp="1601888759413">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="434" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1601888759413" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1603866720593">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1603866720593" />
-    <state width="1256" height="181" key="GridCell.Tab.0.bottom" timestamp="1601970020992">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601970020992" />
-    <state width="1256" height="181" key="GridCell.Tab.0.center" timestamp="1601970020991">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1601970020991" />
-    <state width="1256" height="181" key="GridCell.Tab.0.left" timestamp="1601970020990">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1601970020990" />
-    <state width="1256" height="181" key="GridCell.Tab.0.right" timestamp="1601970020992">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1601970020992" />
-    <state width="1256" height="181" key="GridCell.Tab.1.bottom" timestamp="1601970020993">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601970020993" />
-    <state width="1256" height="181" key="GridCell.Tab.1.center" timestamp="1601970020992">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1601970020992" />
-    <state width="1256" height="181" key="GridCell.Tab.1.left" timestamp="1601970020992">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1601970020992" />
-    <state width="1256" height="181" key="GridCell.Tab.1.right" timestamp="1601970020992">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1601970020992" />
-    <state width="1256" height="181" key="GridCell.Tab.2.bottom" timestamp="1601970020994">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1601970020994" />
-    <state width="1256" height="181" key="GridCell.Tab.2.center" timestamp="1601970020993">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1601970020993" />
-    <state width="1256" height="181" key="GridCell.Tab.2.left" timestamp="1601970020993">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1601970020993" />
-    <state width="1256" height="181" key="GridCell.Tab.2.right" timestamp="1601970020993">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1256" height="181" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1601970020993" />
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1601889217647">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1601889217647" />
-    <state x="270" y="62" key="SettingsEditor" timestamp="1601361828237">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1601361828237" />
-    <state x="533" y="93" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601361715664">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="533" y="93" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1601361715664" />
-    <state x="322" y="78" key="new project wizard" timestamp="1603866743412">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="322" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1603866743412" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1601886749283">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1601886749283" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/controller/BlogController.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/halk_blog_admin/src/main/java/org/halk/blog/admin/config/filter/TokenAuthorFilter.java</url>
-          <line>47</line>
+          <line>48</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>

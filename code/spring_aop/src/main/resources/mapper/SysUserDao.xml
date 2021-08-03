@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.halk.spring_aop.dao.SysUserDao">
-    <resultMap id="BaseResultMap" type="org.halk.spring_aop.entity.SysUser">
+<mapper namespace="org.halk.spring_ioc.dao.SysUserDao">
+    <resultMap id="BaseResultMap" type="org.halk.spring_ioc.entity.SysUser">
         <id column="id" jdbcType="CHAR" property="id"/>
         <result column="username" jdbcType="VARCHAR" property="username"/>
         <result column="name" jdbcType="VARCHAR" property="name"/>
@@ -31,7 +31,7 @@
     delete from sys_user
     where id = #{id,jdbcType=CHAR}
   </delete>
-    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="org.halk.spring_aop.entity.SysUser"
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="org.halk.spring_ioc.entity.SysUser"
             useGeneratedKeys="true">
     insert into sys_user (username, `name`, `password`,
       salt, create_date, `status`,
@@ -44,7 +44,7 @@
       #{relativeOrganizationId,jdbcType=CHAR}, #{relativeSchoolId,jdbcType=CHAR}, #{avatar,jdbcType=VARCHAR}
       )
   </insert>
-    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="org.halk.spring_aop.entity.SysUser"
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="org.halk.spring_ioc.entity.SysUser"
             useGeneratedKeys="true">
         insert into sys_user
         <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -124,7 +124,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByPrimaryKeySelective" parameterType="org.halk.spring_aop.entity.SysUser">
+    <update id="updateByPrimaryKeySelective" parameterType="org.halk.spring_ioc.entity.SysUser">
         update sys_user
         <set>
             <if test="username != null">
@@ -166,7 +166,7 @@
         </set>
         where id = #{id,jdbcType=CHAR}
     </update>
-    <update id="updateByPrimaryKey" parameterType="org.halk.spring_aop.entity.SysUser">
+    <update id="updateByPrimaryKey" parameterType="org.halk.spring_ioc.entity.SysUser">
     update sys_user
     set username = #{username,jdbcType=VARCHAR},
       `name` = #{name,jdbcType=VARCHAR},

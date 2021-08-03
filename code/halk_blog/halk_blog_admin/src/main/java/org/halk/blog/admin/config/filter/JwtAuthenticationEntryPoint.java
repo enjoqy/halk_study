@@ -22,11 +22,11 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint, Se
                          HttpServletResponse response,
                          AuthenticationException authException) throws IOException {
 
-        response.setStatus(ECode.SUCCESS);
+        response.setStatus(/*ECode.SUCCESS*/1);
         response.setCharacterEncoding("UTF-8");
         response.setContentType("application/json; charset=utf-8");
         Map<String, Object> result = new HashMap<>();
-        result.put("code", ECode.UNAUTHORIZED);
+        result.put("code", 2/*ECode.UNAUTHORIZED*/);
         result.put("data", "token无效或过期");
         response.getWriter().write(JSONObject.toJSONString(result));
     }

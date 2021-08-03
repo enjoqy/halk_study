@@ -40,6 +40,7 @@ public class TokenAuthorFilter extends OncePerRequestFilter {
     }
 
     @Override
+
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
 
         //得到请求头信息authorization信息

@@ -1,0 +1,33 @@
+server:
+  port: ${port:5630}
+spring:
+  application:
+    name: service1
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: dev
+        cluster-name: DEFAULT
+      config:
+        server-addr: 127.0.0.1:8848
+        group: NACOS_MICROSERVICE_GROUP
+        namespace: dev
+        file-extension: yaml
+
+dubbo:
+  scan:
+    # dubbo 服务扫描基准包
+    base-packages: org.halk.service1
+  protocol:
+    # dubbo协议
+    name: dubbo
+    # dubbo协议端口号
+    port: ${dubbo_port:20881}
+  registry:
+    address: nacos://192.168.1.106:8848
+  application:
+    qos-enable: false  # dubbo运维服务是否开启
+  consumer:
+    check: false  # 启动时是否检查依赖服务
+

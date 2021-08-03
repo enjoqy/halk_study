@@ -1,0 +1,16 @@
+server:
+  port: 5620
+spring:
+  application:
+    name: application1
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: dev
+        cluster-name: DEFAULT
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        group: NACOS_MICROSERVICE_GROUP
+        namespace: dev

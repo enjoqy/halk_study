@@ -49,6 +49,7 @@ public class AuthController {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(AuthController.class);
 
+    @CrossOrigin
     @PostMapping("/login")
     public String login(@RequestBody String json) {
 
