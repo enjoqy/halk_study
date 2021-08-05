@@ -1,5 +1,0 @@
-org\junhi\config\WebMvcConfiguration.class
-org\junhi\controller\UserController.class
-org\junhi\UserApplication.class
-org\junhi\interceptor\MyInterceptor.class
-org\junhi\pojo\User.class
