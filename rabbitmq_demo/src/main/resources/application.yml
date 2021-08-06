@@ -1,0 +1,8 @@
+server:
+  port: 8010
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    username: halk
+    password: halk
+    virtual-host: /halk
