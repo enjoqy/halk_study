@@ -1,0 +1,28 @@
+server:
+  port: 7802
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/halk_dispatcher?useUnicode=true&allowMultiQueries=true&characterEncoding=utf8&characterSetResults=utf8&allowMultiQueries=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&useSSL=false
+    username: root
+    password: Abcd@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    port: 5672
+    host: 192.168.6.20
+    username: halk
+    password: halk
+    virtual-host: /halk
+    listener:
+      simple:
+        acknowledge-mode: manual  # \u8FD9\u91CC\u662F\u5F00\u542F\u624B\u52A8ack\uFF0C\u8BA9\u7A0B\u5E8F\u53BB\u63A7\u5236MQ\u7684\u6D88\u606F\u7684\u91CD\u53D1\u548C\u5220\u9664\u548C\u8F6C\u79FB
+        retry:
+          enabled: true  # \u5F00\u542F\u91CD\u8BD5
+          max-attempts: 3  #\u6700\u5927\u91CD\u8BD5\u6B21\u6570
+          initial-interval: 2000ms  #\u91CD\u8BD5\u95F4\u9694\u65F6\u95F4
+    #  addresses: 47.104.141.27:56726  \u96C6\u7FA4
+#    publisher-confirm-type: correlated  # \u6295\u9012\u6D88\u606F\u6210\u529F\u540E\u56DE\u8C03\u673A\u5236
+
+logging:
+  level:
+    root: info

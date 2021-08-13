@@ -1,0 +1,22 @@
+server:
+  port: 7801
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/halk_order?useUnicode=true&allowMultiQueries=true&characterEncoding=utf8&characterSetResults=utf8&allowMultiQueries=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&useSSL=false
+    username: root
+    password: Abcd@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    port: 5672
+    host: 192.168.6.20
+    username: halk
+    password: halk
+    virtual-host: /halk
+    #  addresses: 47.104.141.27:56726  \u96C6\u7FA4
+    publisher-confirm-type: correlated  # \u6295\u9012\u6D88\u606F\u6210\u529F\u540E\u56DE\u8C03\u673A\u5236
+
+logging:
+  level:
+    root: info
+

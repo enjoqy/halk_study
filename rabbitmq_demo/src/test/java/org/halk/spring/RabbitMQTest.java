@@ -23,7 +23,8 @@ public class RabbitMQTest {
 
     @Test
     public void testSend() throws InterruptedException {
-        String msg = "hello, Spring boot amqp";
+//        String msg = "hello, Spring boot amqp";
+        String msg = "------------";
 
         for (int i = 0; i < 10; i++) {
             this.amqpTemplate.convertAndSend("spring.test.exchange","a.b", msg + i);
